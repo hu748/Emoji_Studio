@@ -1,0 +1,98 @@
+# ================================
+# Python 通用忽略
+# ================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ================================
+# 虚拟环境
+# ================================
+.venv/
+venv/
+ENV/
+env/
+.env
+.venv3/
+venv3/
+
+# ================================
+# 测试 & 覆盖率
+# ================================
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# ================================
+# Jupyter / IPython
+# ================================
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# ================================
+# 数据文件（个人生成的产物不上传）
+# ================================
+emoji_output/
+upload/
+*.gif
+*.png
+*.jpg
+*.jpeg
+*.zip
+!_sample/*.png
+
+# ================================
+# rembg 下载的模型文件
+# ================================
+*.onnx
+.u2net/
+
+# ================================
+# IDE - PyCharm / JetBrains
+# ================================
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ================================
+# IDE - VSCode
+# ================================
+.vscode/
+
+# ================================
+# 临时 / 日志
+# ================================
+*.log
+*.swp
+*.tmp
+.DS_Store
+Thumbs.db

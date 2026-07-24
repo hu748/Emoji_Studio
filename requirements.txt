@@ -1,0 +1,10 @@
+langchain>=0.1.0
+langchain-openai>=0.0.5
+pillow>=10.0.0
+imageio>=2.31.0
+opencv-python>=4.8.0
+rembg>=2.0.50
+fastapi>=0.104.0
+python-multipart>=0.0.6
+numpy>=1.24.0
+uvicorn>=0.24.0
