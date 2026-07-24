@@ -224,36 +224,8 @@ gentert_image/
 
 ---
 
-## 🚢 上传 GitHub 前：`.gitignore` 已配置好
 
-仓库根目录的 [`.gitignore`](.gitignore) 已经帮你忽略掉以下「**不要上传**」的内容：
 
-| 类别 | 被忽略的内容 |
-|---|---|
-| Python 缓存 | `__pycache__/`、`*.pyc`、`*.egg-info/`、`build/ dist/` |
-| 虚拟环境 | `.venv/`、`venv/`、`.env` |
-| 个人生成产物 | `emoji_output/`（生成的表情包/GIF/ZIP）、`upload/`（上传的原图） |
-| 示例图之外的图片 | 所有 `*.gif/png/jpg/jpeg/zip`，**仅保留** `_sample/*.png` 这几张示例 |
-| IDE 配置 | `.idea/`（PyCharm）、`.vscode/`（VSCode）、`*.iml` |
-| rembg 模型 | `.u2net/`、`*.onnx`（首次运行自动下载，无需入库） |
-| 系统垃圾 | `.DS_Store`、`Thumbs.db`、`*.log / *.swp / *.tmp` |
-
-### 上传步骤
-
-```bash
-cd gentert_image
-git init
-git add .
-git status          # 确认一下没有把 emoji_output / upload / __pycache__ 加进去
-git commit -m "feat: 糖果表情包工坊 初始提交"
-git branch -M main
-git remote add origin git@github.com:你的用户名/仓库名.git
-git push -u origin main
-```
-
-> 🚨 切记：**不要**把 `.env` 或任何写着 OPENAI_API_KEY 的文件提交上来（`.env` 已经在 ignore 里，只要你不改名就安全）。
-
----
 
 ## ❓ 常见问题 FAQ
 
